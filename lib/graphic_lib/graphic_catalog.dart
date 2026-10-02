@@ -1,0 +1,16 @@
+import '../core/chart_spec.dart';
+import 'advanced/advanced_part1.dart';
+import 'advanced/advanced_part2.dart';
+import 'basics/basics_part1.dart';
+import 'basics/basics_part2.dart';
+import 'basics/basics_part3.dart';
+import 'basics/basics_part4.dart';
+
+final List<ChartSpec> graphicCatalog = [
+  ...graphicBasicsPart1,
+  ...graphicBasicsPart2,
+  ...graphicBasicsPart3,
+  ...graphicBasicsPart4,
+  ...graphicAdvancedPart1,
+  ...graphicAdvancedPart2,
+];
